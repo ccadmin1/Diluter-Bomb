@@ -1,0 +1,15 @@
+apt install git
+
+apt install python3
+
+pip install cython 
+
+rm -rf $HOME/Diluter-Bomb
+
+cd $HOME
+
+git clone https://github.com/ccadmin1/Diluter-Bomb
+
+cd $HOME/Diluter-Bomb
+
+python3 Diluter.py
